@@ -6,7 +6,11 @@ Purpose
 
 The primary goal of a Facade Pattern is not to avoid you to read the
 manual of a complex API. It's only a side-effect. The first goal is to
-reduce coupling and follow the Law of Demeter.
+reduce coupling(coupling is the degree of interdependence between software modules; a measure of how closely connected two routines or modules are) and follow the Law of Demeter(
+    Each unit should have only limited knowledge about other units: only units "closely" related to the current unit.
+    Each unit should only talk to its friends; don't talk to strangers.
+    Only talk to your immediate friends.
+).
 
 A Facade is meant to decouple a client and a sub-system by embedding
 many (but sometimes just one) interface, and of course to reduce
